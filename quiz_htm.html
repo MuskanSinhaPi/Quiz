@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> QUIZ TYME </title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="progress">
+        <div class="progress-done"></div>
+    </div>
+    <div class="cools">
+        <div class="streak"> 
+            <div class="streak-txt"><b>STREAK</b></div>
+            <div class="streak-bar"> </div>
+            <div class="fire">🔥</div>
+        </div>
+        <div class="app">
+            <h1>
+                <center> QUIZ </center>
+            </h1>
+            <div class="quiz">
+                <h2 id="question">#question</h2>
+                <div id="answer-buttons">
+                    <button class="btn">A1</button>
+                    <button class="btn">A2</button>
+                    <button class="btn">A3</button>
+                    <button class="btn">A4</button>
+                </div>
+                <button id="next-btn"> NEXT QUESTION </button>
+            </div>
+        </div>
+        <div class="timer" id="timer"></div>
+    </div>
+    <center>
+        <a href="./Quiz-landing/index.html">
+            <button id="home" class="home" style="font-size:24px"><i class="fa-solid fa-house"></i></button>
+        </a>
+    </center>
+    <script src="script.js"></script>
+    <script src="confetti.js"></script>
+</body>
+
+</html>
