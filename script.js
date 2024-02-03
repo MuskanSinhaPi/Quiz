@@ -276,9 +276,9 @@ const confettiStop = () => {
 startQuiz();
 
 function onTimesUp() {
+  streakBar(0,questions.length);
   resetTimer();
   handleNextButton();
-  streakBar(0,totalQs)
 }
 
 function startTimer() {
