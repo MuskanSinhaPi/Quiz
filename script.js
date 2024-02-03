@@ -278,6 +278,7 @@ startQuiz();
 function onTimesUp() {
   resetTimer();
   handleNextButton();
+  streakBar(0,totalQs)
 }
 
 function startTimer() {
