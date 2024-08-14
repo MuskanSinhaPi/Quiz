@@ -15,11 +15,10 @@ check it out here: https://quiz-miniproject.netlify.app
 </ul>
 
 <h6> Some Screenshots: </h6>
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+
+<img src="./images/3rd%20qs.png">
+<img src="./images/all%20correct.png">
+<img src="./images/confetti.png">
+<img src="./images/first%20qs.png">
+<img src="./images/home%20button.png">
+<img src="./images/wrong%20ans.png">
