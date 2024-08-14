@@ -3,7 +3,7 @@ made using HTML, CSS, and Javascript
 
 check it out here: https://quiz-miniproject.netlify.app
 
-<h6>The quizzing platform that has functionalities - </h6>
+<h6>The quizzing platform has following functionalities - </h6>
 <ul>
   <li>Questions displayed in randomised order each time</li>
   <li>A streak bar</li>
